@@ -1,0 +1,72 @@
+/* Resetting default margin and padding on the body */
+body {
+ margin: 0;
+ padding: 20px;
+ font-family: "Montserrat", sans-serif;
+ background-color: #f7f7f7;
+}
+
+/* Styling for the main content container */
+.container {
+ background-color: white;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ padding: 20px;
+ max-width: 600px;
+ margin: 0 auto;
+ border-radius: 5px;
+ margin-top: 50px;
+}
+
+/* Styling for the main heading */
+h1 {
+ font-size: 36px;
+ text-align: center;
+ margin-top: 0;
+ margin-bottom: 20px;
+}
+
+/* Styling for the form section */
+.form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+/* Styling for form labels */
+label {
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+/* Styling for form input fields */
+input {
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ width: 100%;
+ max-width: 300px;
+}
+
+/* Styling for form button */
+button {
+ background-color: #007bff;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ margin-top: 10px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+/* Styling for button hover effect */
+button:hover {
+ background-color: #0062cc;
+}
+
+/* Styling for result paragraph */
+#result {
+ margin-top: 20px;
+ font-size: 24px;
+ font-weight: bold;
+}
